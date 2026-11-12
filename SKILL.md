@@ -4,7 +4,7 @@ description: Helps overseas B2B buyers find the real county-level production clu
 license: MIT
 compatibility: Agent Skills open format. Self-contained Markdown; the skill itself needs no API key, scripts, bundled database or network access. Optional public-record research uses the host agent's own tools. Compatible with Codex, OpenClaw, Claude Code, WorkBuddy, Cursor and other agents that load SKILL.md.
 metadata:
-  version: "0.3.0"
+  version: "0.3.1"
   docs-license: "CC BY 4.0"
   last-verified: "2026-11-10"
 ---

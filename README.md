@@ -95,6 +95,28 @@ Use these to check the skill in any agent. The last two should be declined; prom
 
 A good answer names a **county or town**, separates cluster from market, gives Chinese strings verbatim, labels cluster attribution as **indicative**, and ends with a confidence / unknowns section. For smart or connected goods it must also split the capability stack, identify which layer owns the requested customisation, and not treat a first-tier-city R&D address as automatic proof of an intermediary. When a backend, cloud service, deployment model or data rule is involved, it must say plainly that the cluster map does not apply to that layer, switch to delivery / data / IP / service criteria, and never invent a county for it. It should never invent a company name, a price or a percentage.
 
+## A worked example
+
+**Buyer prompt** (illustrative):
+
+> "We need 20,000 makeup brushes with private-label packaging. Where are they actually produced, and is Yiwu the production base?"
+
+**Sourcing Route Card (abridged):**
+
+| Field | Output |
+| --- | --- |
+| Production cluster | Anhui · Anqing · Qianshan (MIIT) — brush-making chain; Henan · Zhoukou · Luyi — makeup brushes. Two different chains, stated separately. |
+| Is Yiwu the base? | No. Yiwu International Trade City is a **wholesale market**, not a production base. Useful for discovery, weak for identifying a factory. |
+| Layer check | Brush head, ferrule, handle and packaging may come from different suppliers; the card names which layer is being sourced. |
+| Paste-ready Chinese terms | `制刷 潜山 化妆刷 鹿邑` |
+| Channel order | Ranked by how likely each channel surfaces a cluster factory rather than a first-tier-city export office. |
+| Confidence | **Indicative.** Cluster attribution must be confirmed against public registration records. |
+| Unknowns | No company names, MOQs, prices or certificates asserted — those are verification tasks, not facts. |
+
+The skill then drafts a bilingual RFQ, a factory-vs-trader verification checklist and a like-for-like supplier scorecard. It never invents a supplier name, a price or a percentage.
+
+Sources for the cluster entries are listed in [`references/cluster-map.md`](references/cluster-map.md); the blank templates are in [`assets/`](assets/).
+
 ## Repository layout
 
 ```
