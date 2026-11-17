@@ -202,7 +202,7 @@ The whole-unit assembly factory usually does not own the firmware, app, voice or
 No. The skill is plain Markdown that runs offline in any compatible agent (Codex, OpenClaw, Claude Code, WorkBuddy, Cursor). Optional public-record research uses the host agent's own tools, at your discretion. No telemetry, no scraping, no scripts.
 
 **How is this different from other China sourcing agents or databases?**
-Most tools are either single-platform tutorials, commercial factory databases, or later-stage RFQ workflows. This one is deliberately the geography-and-intermediary layer: vendor-neutral, all product categories, offline, and combinable with the others. See [How this compares](#how-compares) for a comparison table.
+Most tools are either single-platform tutorials, commercial factory databases, or later-stage RFQ workflows. This one is deliberately the geography-and-intermediary layer: vendor-neutral, all product categories, offline, and combinable with the others. See [How this compares](#how-this-compares) for a comparison table.
 
 **What exactly do I get back from a question?**
 Every substantive answer is structured as a Sourcing Route Card: the production cluster and why it formed there, the channel ranking, paste-ready Chinese search queries, factory-vs-trader diagnosis, and an RFQ / verification checklist — with an explicit confidence level and a list of unknowns.
