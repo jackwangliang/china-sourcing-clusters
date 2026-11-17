@@ -181,6 +181,32 @@ This skill is vendor-neutral, covers all product categories, works offline, and 
 - **Trading companies are not the enemy.** They add real service. The skill makes their role explicit and only routes around them when direct contact is worth the effort.
 - **Retail excluded.** B2B sourcing of goods made in China only.
 
+## Frequently asked questions
+
+**How do I find the real factory in China instead of a trading company?**
+Start with geography, not search results. This skill identifies the county-level production cluster (产业带 / 生产基地) where your product is actually made, then gives you paste-ready Chinese search terms and the channels most likely to surface a cluster factory. It also shows how to tell a factory from a trading company by registered address, process words and factory-signalling terms. See [The problem](#the-problem) for why English search is structurally biased toward first-tier-city exporters.
+
+**Is 1688 a factory or a trading company? Can I buy direct there?**
+1688 is a domestic wholesale marketplace, not a list of factories — many sellers on it are traders. The skill ranks sourcing channels by how likely they are to reach a cluster factory and treats 1688 as one channel among several, not a source of truth. It does not scrape the platform or bypass logins.
+
+**Is Yiwu / Huaqiangbei / Lecong a good place to source a factory?**
+Those are wholesale markets and trade hubs, not production locations. A very common and costly mistake is treating them as the place goods are made. The skill explicitly separates a production cluster from a wholesale market, showroom and export office, so you approach the producer directly.
+
+**Can it give me a list of factory names, contacts, prices and MOQs?**
+No. It deliberately holds no supplier database, invents no company names or records, and does not hardcode prices, MOQs, stock or freight. Instead it gives you the method, the Chinese query terms, a screening checklist and a like-for-like scorecard so you can build and verify your own shortlist. Retail, dropshipping and single-unit purchases are out of scope.
+
+**I need a smart / connected product with firmware, voice or AI features — who actually makes that?**
+The whole-unit assembly factory usually does not own the firmware, app, voice or backend. The skill splits such products into solution, component and whole-unit layers and routes each requirement to the party that owns the capability, then asks which technical route and delivery model you mean. For pure backend, cloud, dashboard, transcription or private-deployment work, it says plainly that there is no county-level cluster and switches to delivery-model / data / IP criteria rather than inventing one.
+
+**Does it need an API key, a database or internet access?**
+No. The skill is plain Markdown that runs offline in any compatible agent (Codex, OpenClaw, Claude Code, WorkBuddy, Cursor). Optional public-record research uses the host agent's own tools, at your discretion. No telemetry, no scraping, no scripts.
+
+**How is this different from other China sourcing agents or databases?**
+Most tools are either single-platform tutorials, commercial factory databases, or later-stage RFQ workflows. This one is deliberately the geography-and-intermediary layer: vendor-neutral, all product categories, offline, and combinable with the others. See [How this compares](#how-compares) for a comparison table.
+
+**What exactly do I get back from a question?**
+Every substantive answer is structured as a Sourcing Route Card: the production cluster and why it formed there, the channel ranking, paste-ready Chinese search queries, factory-vs-trader diagnosis, and an RFQ / verification checklist — with an explicit confidence level and a list of unknowns.
+
 ## Contributing
 
 Cluster boundaries shift and platform labels change. Corrections are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Please cite an official cluster list or a local government / industry source, avoid percentage claims, and update the `Last verified` date.
