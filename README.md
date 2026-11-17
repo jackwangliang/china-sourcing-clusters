@@ -6,6 +6,22 @@ An open-format Agent Skill for overseas B2B buyers who need to source any produc
 
 [简体中文说明](README.zh-CN.md)
 
+## See it in action
+
+A real run (full report: [practice-sourcing-clusters.md](https://github.com/jackwangliang/china-agent-skills-practice/blob/main/practice-sourcing-clusters.md)). A buyer asks:
+
+> "We need 50,000 pairs of combed-cotton crew socks with a jacquard logo and private-label packaging. Our shortlist is all from Yiwu — is Yiwu the production base, and where should we actually look?"
+
+Excerpt from the resulting **Sourcing Route Card**:
+
+- **Main cluster:** Zhejiang · Shaoxing · Zhuji · Datang (town/subdistrict), *indicative* — the weaving → sewing → dyeing → packing chain sits within a very small radius. A stable geographic fact; it does not certify any single company as a factory.
+- **Cluster vs market (the heart of the question):** Yiwu is **not** the production base — it is a small-commodity distribution / wholesale market. Even inside the cluster, Datang's own hosiery market is a market, not a factory. A Yiwu-only shortlist is almost certainly trading / showroom side.
+- **Alternatives:** Liaoyuan (Jilin) for cotton socks · Lishui (Foshan, Guangdong).
+- **Paste-ready Chinese query:** `诸暨大唐 袜子 源头工厂` — "Zhuji Datang, socks, source factory".
+- **Confidence & unknowns:** geography is stable; the specific MIIT cluster-list attribution is indicative (not independently re-verified in this run); every supplier claim — factory status, certificates, price, MOQ — must be checked by the buyer.
+
+Four more full sections (channel ranking, factory-vs-trader signals, RFQ pack, verification order) are in the report. By design: no company names, contacts, prices or MOQs.
+
 ---
 
 ## The problem
